@@ -24,10 +24,10 @@ jobs:
       - name: Update README with timestamp
         run: node scripts/update-readme.js
 
-      - name: Commit & push changes (as Orkhan)
+      - name: Commit & push changes (as Shahin)
         run: |
-          git config user.name "Orkhan Abbasli"
-          git config user.email "OrkhanAbbasli@users.noreply.github.com"
+          git config user.name "Shahin Yusifli"
+          git config user.email "shahinyusifli@users.noreply.github.com"
           git add README.md
           git commit -m "Update README timestamp" || echo "No changes"
           git push
